@@ -1,10 +1,11 @@
-
--- Create Database and Schema
-
--- first we have to check if the database 'DataWarehouse' is already exists --> then drop it and recreate
--- if not exists --> create new database 'DataWarehouse'
--- and create 3 schemas: 'bronze' , 'silver' , 'gold'
-
+/*
+==========================
+Create Database and Schema
+==========================
+first we have to check if the database 'DataWarehouse' is already exists --> then drop it and recreate
+if not exists --> create new database 'DataWarehouse'
+and create 3 schemas: 'bronze' , 'silver' , 'gold'
+*/
 
 USE MASTER;
 GO
