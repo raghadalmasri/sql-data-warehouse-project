@@ -5,7 +5,7 @@ Sript purpose:
 this stored procedure loads data into 'bronze' schema from external CSV files.
 it performs this following actions:
 - truncate the bronze tables before loading data.
-- use the bulk insert command to load data from CSV files to bronze tables.
+- use the 'BULK INSERT' command to load data from CSV files to bronze tables.
 */
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
